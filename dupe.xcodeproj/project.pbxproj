@@ -15,6 +15,7 @@
 		633F71F31BC9B07400AB941A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633F71F11BC9B07400AB941A /* LaunchScreen.storyboard */; };
 		633F71FE1BC9B07400AB941A /* dupeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F71FD1BC9B07400AB941A /* dupeTests.m */; };
 		633F72091BC9B07500AB941A /* dupeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F72081BC9B07500AB941A /* dupeUITests.m */; };
+		633F72171BC9EBFB00AB941A /* leads.json in Resources */ = {isa = PBXBuildFile; fileRef = 633F72161BC9EBFB00AB941A /* leads.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		633F72041BC9B07500AB941A /* dupeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dupeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633F72081BC9B07500AB941A /* dupeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dupeUITests.m; sourceTree = "<group>"; };
 		633F720A1BC9B07500AB941A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633F72161BC9EBFB00AB941A /* leads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leads.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		633F71E21BC9B07300AB941A /* dupe */ = {
 			isa = PBXGroup;
 			children = (
+				633F72161BC9EBFB00AB941A /* leads.json */,
 				633F71E61BC9B07300AB941A /* AppDelegate.h */,
 				633F71E71BC9B07300AB941A /* AppDelegate.m */,
 				633F71E91BC9B07300AB941A /* ViewController.h */,
@@ -246,6 +249,7 @@
 				633F71F31BC9B07400AB941A /* LaunchScreen.storyboard in Resources */,
 				633F71F01BC9B07400AB941A /* Assets.xcassets in Resources */,
 				633F71EE1BC9B07400AB941A /* Main.storyboard in Resources */,
+				633F72171BC9EBFB00AB941A /* leads.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
